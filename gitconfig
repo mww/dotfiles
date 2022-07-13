@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Mark Weaver
+	email = mark.weaver@sonos.com
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
+
+[includeIf "gitdir:~/src/personal/"]
+	path = ~/src/personal/.gitconfig
